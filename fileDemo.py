@@ -6,6 +6,8 @@ dictionary = open('engmix.txt')
 
 wordCount = 0
 for word in dictionary:
+    if 'gary' in word:
+        print(word)
     wordCount += 1
     
 print('There are', wordCount, 'words in the dicionary.')
