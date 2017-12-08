@@ -2,7 +2,7 @@ dictionary = open('engmix.txt')
 tf = False
 word = input('Enter a word: ')
 for words in dictionary:
-    if wods == words:
+    if word == words.strip():
         tf = True
         
 if tf == True:
