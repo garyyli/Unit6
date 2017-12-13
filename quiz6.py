@@ -11,11 +11,11 @@ for words in dictionary:
         if words.strip()[0]== 'r':
             i=i+1
 
-print(i)'''
+print(i)
 
 #program5
-'''L = []
-for words in dictionary:
+L = []
+'''for words in dictionary:
     L.append(words.split())
 middle = len(L)
 if middle%2 == 0:
