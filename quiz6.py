@@ -19,6 +19,6 @@ for words in dictionary:
     L.append(words.split())
 middle = len(L)
 if middle%2 == 0:
-    print(words[middle/2-1], words[middle/2])
+    print(L[middle/2-1], L[middle/2])
 else:
-    print(words[middle//2])
+    print(L[middle//2])
