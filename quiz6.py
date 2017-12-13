@@ -5,10 +5,20 @@
 dictionary = open('engmix.txt')
 
 #program2
-for words in dictionary:
+'''for words in dictionary:
     i = 0
     if words.strip() != '':
         if words.strip()[0]== 'r':
             i=i+1
 
-print(i)
+print(i)'''
+
+#program5
+L = []
+for words in dictionary:
+    L.append(words.split())
+middle = len(L)
+if middle%2 == 0:
+    print(words[middle/2-1], words[middle/2])
+else:
+    print(words[middle//2])
