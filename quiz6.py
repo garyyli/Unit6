@@ -6,7 +6,7 @@ dictionary = open('engmix.txt')
 
 number = int(input('Enter a number: '))
 for words in dictionary:
-    if len(words) = num:
+    if len(words) == number:
         print(words)
         break
 
