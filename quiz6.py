@@ -12,12 +12,12 @@ for words in dictionary:
         break'''
 
 #program2
-'''i = 0
+i = 0
 for words in dictionary:
     if words.strip() != '':
         if words.strip()[0]== 'r':
             i=i+1
-print(i)'''
+print(i)
 
 #program5
 '''L = []
@@ -30,11 +30,13 @@ else:
     print(L[middle//2])'''
     
 #program1
-list = []
+'''list = []
 for words in dictionary:
     if words.count('c') == 3 and words.count('p') == 2:
         list.append(words)
 for wordList in list:
     wordList.strip()
-    print(wordList)
+    print(wordList)'''
+
+
         
