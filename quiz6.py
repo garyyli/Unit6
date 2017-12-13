@@ -14,11 +14,13 @@ dictionary = open('engmix.txt')
 print(i)'''
 
 #program5
-L = []
+'''L = []
 for words in dictionary:
     L.append(words.split())
 middle = len(L)
 if middle%2 == 0:
-    print(L[middle/2-1], L[middle/2])
+    print(L[middle/2-1])
 else:
-    print(L[middle//2])
+    print(L[middle//2])'''
+    
+#program
