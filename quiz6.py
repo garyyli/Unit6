@@ -5,8 +5,8 @@
 dictionary = open('engmix.txt')
 
 #program2
-'''for words in dictionary:
-    i = 0
+i = 0
+for words in dictionary:
     if words.strip() != '':
         if words.strip()[0]== 'r':
             i=i+1
