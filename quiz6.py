@@ -10,5 +10,5 @@ for words in dictionary:
     if words.strip() != '':
         if words.strip()[0]== 'g' and words.strip()[-1]== 'l':
             i=i+1
-    return i
+            return i
 print(i)
