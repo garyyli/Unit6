@@ -8,7 +8,7 @@ dictionary = open('engmix.txt')
 for words in dictionary:
     i = 0
     if words.strip() != '':
-        if words.strip()[0]== 'g' and words.strip()[-1]== 'l':
+        if words.strip()[0]== 'r':
             i=i+1
-            return i
+
 print(i)
