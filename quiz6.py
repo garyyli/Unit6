@@ -12,12 +12,12 @@ for words in dictionary:
         break'''
 
 #program2
-i = 0
+'''i = 0
 for words in dictionary:
     if words.strip() != '':
         if words.strip()[0]== 'r':
             i=i+1
-print(i)
+print(i)'''
 
 #program5
 '''L = []
