@@ -41,4 +41,6 @@ for words in dictionary:
             p = p+1
         if c == 3 and p ==2:
             list.append(words.strip())
+            
+print(list)
         
