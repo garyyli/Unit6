@@ -4,14 +4,19 @@
 
 dictionary = open('engmix.txt')
 
+number = int(input('Enter a number: '))
+for words in dictionary:
+    if len(words) = num:
+        print(words)
+        break
+
 #program2
-i = 0
+'''i = 0
 for words in dictionary:
     if words.strip() != '':
         if words.strip()[0]== 'r':
             i=i+1
-
-print(i)
+print(i)'''
 
 #program5
 L = []
