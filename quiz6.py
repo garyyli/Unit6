@@ -30,6 +30,7 @@ else:
     print(L[middle//2])'''
     
 #program1
+list = []
 for words in dictionary:
     if words.strip() != '':
         c = 0
@@ -39,5 +40,5 @@ for words in dictionary:
         if 'p' in words.strip():
             p = p+1
         if c == 3 and p ==2:
-            print(words)
+            list.append(words.strip())
         
