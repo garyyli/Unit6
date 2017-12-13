@@ -32,8 +32,9 @@ else:
 #program1
 list = []
 for words in dictionary:
-    if words.strip() != '':
-        if words.count('c') == 3 and words.count('p') == 2:
-            list.append(words)
-print(list)
+    if words.count('c') == 3 and words.count('p') == 2:
+        list.append(words)
+for wordList in list:
+    wordList.strip()
+    print(wordList)
         
